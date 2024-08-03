@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Decode</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: grey;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h4 {
+            margin: 0 20px;
+            color: white;
+        }
+        #btn4 {
+            border-radius: 20px;
+            border: 2px solid grey;
+            background-color: grey;
+            color: white;
+            height: 50px;
+            width: 200px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 50px;
+        }
+        .content h1, .content h3 {
+            margin: 10px 0;
+        }
+        #btnaction, #btn6 {
+            border-radius: 20px;
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            background-color: white;
+            margin: 20px 0;
+            
+        }
+        .xyz {
+            background-color: grey;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .xyz h1, .xyz h3 {
+            margin: 10px 0;
+        }
+        .ty{
+            display: flex;
+        }
+        #btnrecy{
+            border-radius: 3px;
+            background-color: grey;
+            height: 20px;
+            width: 20px;
+            margin-left: 1000px;
+            margin-top: 10px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            background-color: grey;
+            height: 300px;
+            width: 300px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="ty">
+            <h4>Home</h4>
+            <h4>About Us</h4>
+            <h4>Contact</h4>
+        </div>
+        <button type="button" id="btn4">Call To Action</button>
+    </header>
+    <div class="content">
+        <h1>The Future Of</h1>
+        <h1>Web Design Today</h1>
+        <h3>The future of web design, today</h3>
+        <button type="button" id="btnaction">Call To Action</button>
+    </div>
+    <div class="xyz">
+        <h1>Don’t forget to grab this one, it’s free!</h1>
+        <h3>Download the Ultimate con tomate guide.</h3>
+        <button type="button" id="btn6">Call To Action</button>
+    </div>
+    <div class="yy">
+    <h1>What we do</h1>
+    <h4>Our mission is very important to the planet:</h4>
+         <h4>weplant as many trees as possible. </h4>
+        <h5>Can you figure out?</h5>
+        <button type="submit" id="btnrecy"></button>We recycle everything we see<br>
+        <button type="submit" id="btnrecy"></button> We teach people how to reuse their stuff<br>
+        <button type="submit" id="btnrecy"></button> We belive in human being as problem solver<br>
+
+
+    </div>
+    <div class="container">
+        <div class="box">
+           <h3>The future of web
+            design, today</h3>
+            <h5>The future of web design, today</h5>
+        </div>
+        <div class="box">
+            <h3>The future of web
+                design, today</h3>
+                <br>
+                <h5>The future of web design, today
+</h5>
+        </div>
+        <div class="box">
+          <h3>The future of web
+            design, today</h3>
+        </div>
+</html>
